@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+## Configures and calls coqproject.sh (https://github.com/dwoos/coqproject)
+
+## Configuration options for coqproject.sh
+DIRS=(theories)
+NAMESPACE__=""
+source coqproject.sh
